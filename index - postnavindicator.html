@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html class="no-js" style="color:black">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Inder | Home</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/main.css">
+
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<!-- <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script> -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+		<!-- <script>document.documentElement.className = document.documentElement.className.replace('no-js','js');</script>-->
+	</head>
+	<body>
+		<img id="backgroundImg" src="images/backdrop-black.png" alt="background">
+		<img id="smokeImg0" src="images/smoke0.png" alt="smoke0">
+		<img id="smokeImg1" src="images/smoke1.png" alt="smoke1">
+		<nav class="navbar navbar-expand-md static-top">
+			<div class="container-fluid">
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav mr-auto mt-2 text-capitalize">
+						<li class="nav-item h3 fadein-delay">
+							<a href="javascript:homeClicked()" class="nav-link">Home</a>
+						</li>
+						<li class="nav-item h3 fadein-delay">
+							<a href="javascript:void" class="nav-link" data-toggle="tooltip" data-placement="bottom" title="<h5 style='text-transform: lowercase;'>coming soon</h5>" style="cursor: default">Media</a>
+						</li>
+						<li class="nav-item h3 fadein-delay">
+							<a href="javascript:linksClicked()" class="nav-link">Links</a>
+						</li>
+						<li class="nav-item h3 fadein-delay">
+							<a href="javascript:workClicked()" class="nav-link">Work</a>
+						</li>
+					</ul>
+				</div>
+				<a id="site-name" href="index.html" class="navbar-brand inactive-link">
+					<h3 style="font-weight: lighter;" class="d-inline text-lowercase">inderpreet.info</h3>
+				</a>
+				<button class="navbar-toggler fadein-delay" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+			</div>
+			<!-- Learn about this code on MDN: https://developer.mozilla.org/en-US/docs/Web/SVG/Element/rect -->
+		</nav>
+		<div id="navindicator" class="container-fluid d-none d-md-block fadein-superdelay"> <!-- .d-md-block -->
+			<svg width="40" height="1.5" viewBox="0 0 40 1.5" xmlns="http://www.w3.org/2000/svg">
+				<rect x="0" y="0" width="40" height="1.5" rx="1" ry="1" fill="white" stroke="white"/>
+			</svg>
+		</div>
+
+		<section id="me" class="mr-auto current">
+			<div class="who jumbotron mr-5">
+				<div class="container">
+					<h1 id="name" class="display-3">Inderpreet Singh</h1>
+					<p id="role" class="lead display-4">Software Developer</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="work-group" style="display: none;">
+			<div class="container-fluid">
+				<div class="row text-center">
+					<div class="col-6">
+						<img id="madImg" class="img-fluid blacknwhite" src="images/madOption.png" alt="madOption">
+					</div>
+					<div class="col-6 pl-5">
+						<div class="descrip">
+							<h2 class="display-5">Mad Option LLC.</h3>
+							<h2 class="display-5">Hedge Fund</h3>
+							<h2 class="display-5" style="text-transform: capitalize;">New York, NY</h3>
+							<p style="position: relative; top: 15px; margin: 0px 0 0 0; font-size: 20pt">C++/C# UWP Application</p>
+							<p style="position: relative; top: 15px; margin: 2px 0 0 0; font-size: 20pt">Investment Analysis w/ Realtime Data</p>
+						</div>
+					</div>
+				</div>
+				<div style="height: 10px;"><hr></div>
+				<div class="row text-center">
+					<div class="col-6">
+						<img id="abukiImg" class="img-fluid blacknwhite" src="images/abuki.png" alt="">
+					</div>
+					<div class="col-6 pl-5">
+						<div class="descrip">
+							<h2 class="display-5">Abuki Yoga</h3>
+							<h2 class="display-5">Collective</h3>
+							<h2 class="display-5" style="text-transform: capitalize;">Bloomington, IN</h3>
+							<p style="position: relative; top: 15px; margin: 0px 0 0 0; font-size: 20pt">Android Application</p>
+							<p style="position: relative; top: 15px; margin: 2px 0 0 0; font-size: 20pt">Meditation Guide & Live Instruction</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="links-group" style="display: none;">
+			<div class="container-fluid d-flex">
+				<div class="row text-center">
+					<div class="col-md-4 bar">
+						<p class="h3 text-white mb-4">Résumé</p>
+						<a id="resume" class="h3 text-white link" href="files/resume.pdf" target="_blank">PDF <span style="font-weight: lighter">2MB</span></a>
+					</div>
+					<div class="col-md-4 bar">
+						<p class="h3 text-white mb-4">Github</p>
+						<a id="github" class="h3 text-white link" href="https://github.iu.edu/insingh" target="_blank">https://github.iu.edu/insingh</a>
+					</div>
+					<div class="col-md-4">
+						<p class="h3 text-white mb-4">LinkedIn</p>
+						<a id="linkedin" class="h3 text-white link" style="overflow-wrap: break-word;" href="https://linkedin.com/in/inbawa" target="_blank">https://linkedin.com/in/inbawa</a>
+					</div>
+				</div>
+				<hr class="my-3">
+				<div class="row text-center">
+					<div class="col-md-4">
+						<a href="files/resume.pdf" target="_blank"><img id="resumeImg" class="img-fluid linkimg" src="images/resume.png" alt=""></a>
+					</div>
+					<div class="col-md-4">
+						<a href="https://github.iu.edu/insingh" target="_blank"><img id="githubImg" class="img-fluid linkimg" src="images/github.png" alt=""></a>
+					</div>
+					<div class="col-md-4">
+						<a href="https://linkedin.com/in/inbawa" target="_blank"><img id="linkedinImg" class="img-fluid linkimg" src="images/linkedin.png" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<script>
+			if (screen.width <= 699) { document.location = "http://m.inderpreet.info/"; }
+			$(function() {
+			// if($(window).width() < 1280){
+			// 	$('.who').show();
+			// 	$('#smokeImg0, #smokeImg1').css("left", '0px');
+			// 	$('.fadein-delay').css("opacity", 1);
+			// }
+				$('[data-toggle="tooltip"]').tooltip({html:true, trigger:"hover"});
+
+				var visited = document.cookie.replace(/(?:(?:^|.*;\s*)visited\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+				
+				if(visited == 'true'){
+					$('.who').fadeIn(800);
+					$('#site-name').hide().fadeIn(800);
+					$('#backgroundImg, #smokeImg0, #smokeImg1').hide();
+					setTimeout(function(){
+						$(".fadein-delay").each(function(index) {
+							$(this).delay(100*(3-index)).animate({opacity: 1}, {duration: 800, queue:true});
+						});
+						$('#backgroundImg').fadeIn(500);
+						//$('.who').fadeIn(1300).animate({left: "0px"}, {duration:1200, queue:false});
+						$('#smokeImg0').fadeIn(800).animate({left: "0px"}, {duration:1000, queue:false});
+					}, 400);
+					setTimeout(function(){
+						$('#smokeImg1').fadeIn(1300).animate({left: "0px"}, {duration:1000, queue:false});
+						$('.fadein-superdelay').animate({opacity: 1}, 2500);
+					}, 500);
+				}
+				else if (!$("*").hasClass("STOP-ANIM")){
+					$('.who').fadeIn(1700);
+					$('#site-name').hide().fadeIn(1700);
+					$('#backgroundImg, #smokeImg0, #smokeImg1').hide();
+					setTimeout(function(){
+						$(".fadein-delay").each(function(index) {
+							$(this).delay(200*(3-index)).animate({opacity: 1}, {duration: 1500});
+						});
+						$('#backgroundImg').fadeIn(1000);
+						//$('.who').fadeIn(1300).animate({left: "0px"}, {duration:1200, queue:false});
+						$('#smokeImg0').fadeIn(1300).animate({left: "0px"}, {duration:1500, queue:false});
+					}, 1300);
+					setTimeout(function(){
+						$('#smokeImg1').fadeIn(2000).animate({left: "0px"}, {duration:1500, queue:false});
+						$('.fadein-superdelay').animate({opacity: 1}, 1500);
+					}, 2100);
+				} 
+				else{
+					$('.who').show();
+					$('#smokeImg0, #smokeImg1').css("left", '0px');
+					$('.fadein-delay .fadein-superdelay').css("opacity", 1);
+				}
+				$('.linkimg').each(function(index) {
+						$(this).delay(300*(index)).animate({bottom: '0px'}, {duration: 2000,queue:false}).fadeIn(2500);
+				});
+				document.cookie = "visited=true";
+				
+			});
+
+			function homeClicked(){
+				if(!$('#me').hasClass("current")){
+					$('section.current').fadeOut(500).delay(500);
+					$('section.current').removeClass("current");
+					$('#me').delay(500).fadeIn(500);
+					$('#me').addClass("current");
+					$('#navindicator').animate({marginLeft: "132px"}, "very slow", easeOutBack);
+				}
+			}
+			function workClicked(){
+				if(!$('#work-group').hasClass("current")){
+					$('section.current').fadeOut(500).delay(500);
+					$('section.current').removeClass("current");
+					$('#work-group').delay(500).fadeIn(500);
+					$('#work-group').addClass("current");
+					$('#navindicator').animate({marginLeft: "490px"}, "slow", easeOutBack);
+				}
+			}
+
+			// function mediaClicked(){
+			// 	if(!$('#media-group').hasClass("current")){
+			// 		$('section.current').fadeOut(500).delay(500);
+			// 		$('section.current').removeClass("current");
+			// 		$('#media-group').delay(500).fadeIn(500);
+			// 		$('#media-group').addClass("current");
+			// 	}
+			// }
+
+			function linksClicked(){
+				if(!$('#links-group').hasClass("current")){
+					$('section.current').fadeOut(500).delay(500);
+					$('section.current').removeClass("current");
+					$('#links-group').delay(500).fadeIn(500);
+					$('#links-group').addClass("current");
+					$('#navindicator').animate({marginLeft: "375px"}, "slow", easeOutBack);
+				}
+			}
+			
+			$('.link').on({
+				mouseenter: function() {$('#'+$(this).attr('id')+'Img').addClass('blacknwhiteLinkImg', 6000, "ease");},
+				mouseleave: function() {$('#'+$(this).attr('id')+'Img').removeClass('blacknwhiteLinkImg', 6000, "ease");}
+			})
+
+			// if(typeof(localStorage.setVisit)=='undefind' || localStorage.setVisit==''){
+			// 	localStorage.setVisit='yes';
+			// }
+
+		</script>
+	</body>
+</html>

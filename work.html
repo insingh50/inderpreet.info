@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html class="no-js" style="color:black">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>INDER|WORK</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/main.css">
+
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>	
+		<!-- <script>document.documentElement.className = document.documentElement.className.replace('no-js','js');</script>		 -->
+	</head>
+	<body>
+		<img id="backgroundImg" src="images/smoke-backdrop.png" alt="background">
+		<img id="smokeImg0" src="images/smoke0.png" alt="smoke0">
+		<img id="smokeImg1" src="images/smoke1.png" alt="smoke1">
+		<nav class="navbar navbar-expand-md static-top mt-4 mx-4">
+			<div class="container-fluid">
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav mr-auto mt-2 text-capitalize">
+						<li class="nav-item h3 fadein-delay">
+							<a href="index.html" class="nav-link">Home</a>
+						</li>
+						<li class="nav-item h3 fadein-delay">
+							<a href="" class="nav-link">Work</a>
+						</li>
+						<li class="nav-item h3 fadein-delay">
+							<a href="media.html" class="nav-link">Media</a>
+						</li>
+						<li class="nav-item h3 fadein-delay">
+							<a href="links.html" class="nav-link">Links</a>
+						</li>
+					</ul>
+				</div>
+				<a id="site-name" href="index.html" class="navbar-brand inactive-link">
+					<h3 class="d-inline text-lowercase">inderpreet.info</h3>
+				</a>
+				<button class="navbar-toggler stop-anim" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+			</div>
+		</nav>
+
+		<section id="work-group">
+				<div id="work-group" class="container-fluid">
+					<div class="row text-center">
+						<div class="col-6">
+							<img id="madImg" class="img-fluid blacknwhite" src="images/madOption.png" alt="madOption">
+						</div>
+						<div class="col-6 pl-5">
+							<div class="descrip">
+								<h2 class="display-5">Mad Option LLC.</h3>
+								<h2 class="display-5">Hedgefund</h3>
+								<h2 class="display-5">New York, NY</h3>
+								<p style="position: relative; top: 15px; margin: 0px 0 0 0; font-size: 20pt">C++/C# UWP Application</p>
+								<p style="position: relative; top: 15px; margin: 2px 0 0 0; font-size: 20pt">Investment Analysis w/ Realtime Data</p>
+							</div>
+						</div>
+					</div>
+					<div style="height: 10px;"><hr></div>
+					<div class="row text-center">
+						<div class="col-6">
+							<img id="abukiImg" class="img-fluid blacknwhite" src="images/abuki.png" alt="">
+						</div>
+						<div class="col-6 pl-5">
+							<div class="descrip">
+								<h2 class="display-5">Abuki Yoga</h3>
+								<h2 class="display-5">Collective</h3>
+								<h2 class="display-5">Bloomington, IN</h3>
+								<p style="position: relative; top: 15px; margin: 0px 0 0 0; font-size: 20pt">Android Application</p>
+								<p style="position: relative; top: 15px; margin: 2px 0 0 0; font-size: 20pt">Meditation Guide & Live Instruction</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<script>
+			$(function() {
+				if (!$("*").hasClass("stop-anim")){
+					$('#site-name').hide().fadeIn(1700);
+					$('#backgroundImg, #smokeImg0, #smokeImg1').hide();
+					setTimeout(function(){
+						$(".fadein-delay").each(function(index) {
+							$(this).delay(200*(3-index)).animate({opacity: 1}, {duration: 1500});
+						});
+						$('#backgroundImg').fadeIn(1000);
+						//$('.who').fadeIn(1300).animate({left: "0px"}, {duration:1200, queue:false});
+						$('#smokeImg0').fadeIn(1300).animate({left: "0px"}, {duration:1500, queue:false});
+					}, 1300);
+					setTimeout(function(){
+						$('#smokeImg1').fadeIn(2000).animate({left: "0px"}, {duration:1500, queue:false});
+					}, 2100);
+				} else{
+					$('#smokeImg0, #smokeImg1').css("left", '0px');
+					$('.fadein-delay').css("opacity", 1);
+				}
+			});
+			// $('.img-fluid').hover(animate({'filter': 'none'}, {duration:200, queue:false}));
+		</script>
+	</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html class="no-js" style="color:black">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Inder | Home</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/main.css">
+
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<!-- <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script> -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+		<script src="./js/jquery.transit.min.js"></script>
+		<!-- <script>document.documentElement.className = document.documentElement.className.replace('no-js','js');</script>-->
+	</head>
+	<body>
+		<img id="backgroundImg" src="images/backdrop-black.png" alt="background">
+		<img id="smokeImg0" src="images/smoke0.png" alt="smoke0">
+		<img id="smokeImg1" src="images/smoke1.png" alt="smoke1">
+		<nav class="navbar navbar-expand-md static-top">
+			<div class="container-fluid">
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav mr-auto mt-2 text-capitalize">
+						<li class="nav-item h3 fadein-delay">
+							<a href="javascript:homeClicked()" class="nav-link working-link">Home</a>
+						</li>
+						<li class="nav-item h3 fadein-delay">
+							<a href="javascript:mediaClicked()" class="nav-link" data-toggle="tooltip" data-placement="bottom" title="<h5 style='text-transform: lowercase; color: #fff'>coming soon</h5>" style="cursor: default;">Media</a>
+						</li>
+						<li class="nav-item h3 fadein-delay">
+							<a href="javascript:linksClicked()" class="nav-link working-link">Links</a>
+						</li>
+						<li class="nav-item h3 fadein-delay">
+							<a href="javascript:workClicked()" class="nav-link working-link">Work</a>
+						</li>
+					</ul>
+				</div>
+				<a id="site-name" href="index.html" class="navbar-brand inactive-link">
+					<h3 style="font-weight: lighter;" class="d-inline text-lowercase">inderpreet.info</h3>
+				</a>
+				<button class="navbar-toggler fadein-delay" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+			</div>
+			<!-- Learn about this code on MDN: https://developer.mozilla.org/en-US/docs/Web/SVG/Element/rect -->
+		</nav>
+		<div id="navindicator" class="container-fluid d-none"> <!-- .d-md-block -->
+			<svg width="40" height="2" viewBox="0 0 40 2" xmlns="http://www.w3.org/2000/svg">
+				<rect x="0" y="0" width="40" height="2" rx="1" ry="1" fill="white" stroke="white"></rect>
+			</svg>
+		</div>
+
+		<section id="me" class="mr-auto current">
+			<div class="who jumbotron mr-5">
+				<div class="container">
+					<h1 id="name" class="display-3">Inderpreet Singh</h1>
+					<p id="role" class="lead display-4">Software Developer</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="work-group" style="display: none;" class="text-white">
+			<div class="container-fluid">
+				<div class="row text-center">
+					<div class="col-6">
+						<img id="madImg" class="img-fluid blacknwhite" src="images/madOption.png" alt="madOption">
+					</div>
+					<div class="col-6 pl-5">
+						<div class="descrip">
+							<h2 class="text-white">Mad Option LLC.</h2>
+							<h2 class="text-white">Hedge Fund</h2>
+							<h2 class="text-white" style="text-transform: capitalize;">New York, NY</h2>
+							<p style="position: relative; top: 15px; margin: 0px 0 0 0; font-size: 20pt">C++/C# UWP Application</p>
+							<p style="position: relative; top: 15px; margin: 2px 0 0 0; font-size: 20pt">Investment Analysis w/ Realtime Data</p>
+						</div>
+					</div>
+				</div>
+				<div style="height: 10px;"><hr></div>
+				<div class="row text-center">
+					<div class="col-6">
+						<img id="abukiImg" class="img-fluid blacknwhite" src="images/abuki.png" alt="">
+					</div>
+					<div class="col-6 pl-5">
+						<div class="descrip">
+							<h2 class="text-white">Abuki Yoga</h2>
+							<h2 class="text-white">Collective</h2>
+							<h2 class="text-white" style="text-transform: capitalize;">Bloomington, IN</h2>
+							<p style="position: relative; top: 15px; margin: 0px 0 0 0; font-size: 20pt">Android Application</p>
+							<p style="position: relative; top: 15px; margin: 2px 0 0 0; font-size: 20pt">Meditation Guide & Live Instruction</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="links-group" style="display: none;">
+			<div class="container-fluid d-flex">
+				<div class="row text-center">
+					<div class="col-md-4 bar">
+						<p class="h3 text-white mb-4">Résumé</p>
+						<a id="resume" class="h3 text-white link" href="files/resume.pdf" target="_blank">PDF <span style="font-weight: lighter">2MB</span></a>
+					</div>
+					<div class="col-md-4 bar">
+						<p class="h3 text-white mb-4">Github</p>
+						<a id="github" class="h3 text-white link" href="https://github.com/insingh50" target="_blank">https://github.com/insingh50</a>
+					</div>
+					<div class="col-md-4">
+						<p class="h3 text-white mb-4">LinkedIn</p>
+						<a id="linkedin" class="h3 text-white link" style="overflow-wrap: break-word;" href="https://linkedin.com/in/insingh50" target="_blank">https://linkedin.com/in/insingh50</a>
+					</div>
+				</div>
+				<hr class="my-3">
+				<div class="row text-center">
+					<div class="col-md-4">
+						<a href="files/resume.pdf" target="_blank"><img id="resumeImg" class="img-fluid linkimg" src="images/resume.png" alt=""></a>
+					</div>
+					<div class="col-md-4">
+						<a href="https://github.com/insingh50" target="_blank"><img id="githubImg" class="img-fluid linkimg" src="images/github.png" alt=""></a>
+					</div>
+					<div class="col-md-4">
+						<a href="https://linkedin.com/in/insingh50" target="_blank"><img id="linkedinImg" class="img-fluid linkimg" src="images/linkedin.png" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<script src="./js/main.js"></script>
+	</body>
+</html>

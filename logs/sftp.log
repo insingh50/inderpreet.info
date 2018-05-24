@@ -1,0 +1,180 @@
+May 24 09:27:21 10.71.55.20 u91411178 Connection from 10.71.55.20 port 10282 on 66.175.239.31 port 22
+May 24 09:27:22 10.71.55.20 u91411178 Accepted password for u91411178 from 10.71.55.20 port 10282 ssh2
+May 24 09:27:22 10.71.55.20 u91411178 Starting session: subsystem 'sftp' for u91411178 from 10.71.55.20 port 10282
+May 24 09:27:22 10.71.55.20 u91411178 session opened for local user u91411178 from [10.71.55.20]
+May 24 09:28:06 10.71.55.20 u91411178 open "/css/bootstrap.min.css" flags READ mode 0666
+May 24 09:28:07 10.71.55.20 u91411178 close "/css/bootstrap.min.css" bytes read 149536 written 0
+May 24 09:28:07 10.71.55.20 u91411178 [10.71.55.20|get|1|149536|0|0|0|2f6373732f626f6f7473747261702e6d696e2e637373|]
+May 24 09:28:07 10.71.55.20 u91411178 open "/css/main.css" flags READ mode 0666
+May 24 09:28:07 10.71.55.20 u91411178 close "/css/main.css" bytes read 5482 written 0
+May 24 09:28:07 10.71.55.20 u91411178 [10.71.55.20|get|0|5482|0|0|0|2f6373732f6d61696e2e637373|]
+May 24 09:28:08 10.71.55.20 u91411178 open "/css/main_backup.css" flags READ mode 0666
+May 24 09:28:08 10.71.55.20 u91411178 close "/css/main_backup.css" bytes read 1641 written 0
+May 24 09:28:08 10.71.55.20 u91411178 [10.71.55.20|get|0|1641|0|0|0|2f6373732f6d61696e5f6261636b75702e637373|]
+May 24 09:28:09 10.71.55.20 u91411178 open "/deprecated/old-nav.txt" flags READ mode 0666
+May 24 09:28:09 10.71.55.20 u91411178 close "/deprecated/old-nav.txt" bytes read 1141 written 0
+May 24 09:28:09 10.71.55.20 u91411178 [10.71.55.20|get|0|1141|0|0|0|2f646570726563617465642f6f6c642d6e61762e747874|]
+May 24 09:28:10 10.71.55.20 u91411178 open "/files/inderpreetinfo.psd" flags READ mode 0666
+May 24 09:28:11 10.71.55.20 u91411178 close "/files/inderpreetinfo.psd" bytes read 6146283 written 0
+May 24 09:28:11 10.71.55.20 u91411178 [10.71.55.20|get|1|6146283|0|0|0|2f66696c65732f696e6465727072656574696e666f2e707364|]
+May 24 09:28:11 10.71.55.20 u91411178 open "/files/inderpreetinfolink.psd" flags READ mode 0666
+May 24 09:28:13 10.71.55.20 u91411178 close "/files/inderpreetinfolink.psd" bytes read 8037900 written 0
+May 24 09:28:13 10.71.55.20 u91411178 [10.71.55.20|get|2|8037900|0|0|0|2f66696c65732f696e6465727072656574696e666f6c696e6b2e707364|]
+May 24 09:28:13 10.71.55.20 u91411178 open "/files/inderpreetinfowork.psd" flags READ mode 0666
+May 24 09:28:14 10.71.55.20 u91411178 close "/files/inderpreetinfowork.psd" bytes read 5941711 written 0
+May 24 09:28:14 10.71.55.20 u91411178 [10.71.55.20|get|1|5941711|0|0|0|2f66696c65732f696e6465727072656574696e666f776f726b2e707364|]
+May 24 09:28:14 10.71.55.20 u91411178 open "/files/index-Arnobs MacBook Pro.html" flags READ mode 0666
+May 24 09:28:14 10.71.55.20 u91411178 close "/files/index-Arnobs MacBook Pro.html" bytes read 2476 written 0
+May 24 09:28:14 10.71.55.20 u91411178 [10.71.55.20|get|0|2476|0|0|0|2f66696c65732f696e6465782d41726e6f6273204d6163426f6f6b2050726f2e68746d6c|]
+May 24 09:28:14 10.71.55.20 u91411178 open "/files/index_backup.html" flags READ mode 0666
+May 24 09:28:15 10.71.55.20 u91411178 close "/files/index_backup.html" bytes read 2970 written 0
+May 24 09:28:15 10.71.55.20 u91411178 [10.71.55.20|get|1|2970|0|0|0|2f66696c65732f696e6465785f6261636b75702e68746d6c|]
+May 24 09:28:15 10.71.55.20 u91411178 open "/files/new smoke.psd" flags READ mode 0666
+May 24 09:28:17 10.71.55.20 u91411178 close "/files/new smoke.psd" bytes read 11417864 written 0
+May 24 09:28:17 10.71.55.20 u91411178 [10.71.55.20|get|2|11417864|0|0|0|2f66696c65732f6e657720736d6f6b652e707364|]
+May 24 09:28:17 10.71.55.20 u91411178 open "/files/Resume.pdf" flags READ mode 0666
+May 24 09:28:17 10.71.55.20 u91411178 close "/files/Resume.pdf" bytes read 558514 written 0
+May 24 09:28:17 10.71.55.20 u91411178 [10.71.55.20|get|0|558514|0|0|0|2f66696c65732f526573756d652e706466|]
+May 24 09:28:17 10.71.55.20 u91411178 open "/files/site.psd" flags READ mode 0666
+May 24 09:28:32 10.71.55.20 u91411178 close "/files/site.psd" bytes read 6178811 written 0
+May 24 09:28:32 10.71.55.20 u91411178 [10.71.55.20|get|15|6178811|0|0|0|2f66696c65732f736974652e707364|]
+May 24 09:28:33 10.71.55.20 u91411178 open "/fonts/FuturaLT-Bold.ttf" flags READ mode 0666
+May 24 09:28:33 10.71.55.20 u91411178 close "/fonts/FuturaLT-Bold.ttf" bytes read 22304 written 0
+May 24 09:28:33 10.71.55.20 u91411178 [10.71.55.20|get|0|22304|0|0|0|2f666f6e74732f4675747572614c542d426f6c642e747466|]
+May 24 09:28:33 10.71.55.20 u91411178 open "/fonts/FuturaLT-Light.ttf" flags READ mode 0666
+May 24 09:28:34 10.71.55.20 u91411178 close "/fonts/FuturaLT-Light.ttf" bytes read 22808 written 0
+May 24 09:28:34 10.71.55.20 u91411178 [10.71.55.20|get|1|22808|0|0|0|2f666f6e74732f4675747572614c542d4c696768742e747466|]
+May 24 09:28:34 10.71.55.20 u91411178 open "/fonts/FuturaLT-Oblique.ttf" flags READ mode 0666
+May 24 09:28:34 10.71.55.20 u91411178 close "/fonts/FuturaLT-Oblique.ttf" bytes read 24508 written 0
+May 24 09:28:34 10.71.55.20 u91411178 [10.71.55.20|get|0|24508|0|0|0|2f666f6e74732f4675747572614c542d4f626c697175652e747466|]
+May 24 09:28:34 10.71.55.20 u91411178 open "/fonts/FuturaLT.ttf" flags READ mode 0666
+May 24 09:28:35 10.71.55.20 u91411178 close "/fonts/FuturaLT.ttf" bytes read 22396 written 0
+May 24 09:28:35 10.71.55.20 u91411178 [10.71.55.20|get|1|22396|0|0|0|2f666f6e74732f4675747572614c542e747466|]
+May 24 09:28:35 10.71.55.20 u91411178 open "/images/abuki.png" flags READ mode 0666
+May 24 09:28:35 10.71.55.20 u91411178 close "/images/abuki.png" bytes read 10294 written 0
+May 24 09:28:35 10.71.55.20 u91411178 [10.71.55.20|get|0|10294|0|0|0|2f696d616765732f6162756b692e706e67|]
+May 24 09:28:35 10.71.55.20 u91411178 open "/images/backdrop-black.png" flags READ mode 0666
+May 24 09:28:36 10.71.55.20 u91411178 close "/images/backdrop-black.png" bytes read 10579 written 0
+May 24 09:28:36 10.71.55.20 u91411178 [10.71.55.20|get|1|10579|0|0|0|2f696d616765732f6261636b64726f702d626c61636b2e706e67|]
+May 24 09:28:36 10.71.55.20 u91411178 open "/images/github.png" flags READ mode 0666
+May 24 09:28:36 10.71.55.20 u91411178 close "/images/github.png" bytes read 110894 written 0
+May 24 09:28:36 10.71.55.20 u91411178 [10.71.55.20|get|0|110894|0|0|0|2f696d616765732f6769746875622e706e67|]
+May 24 09:28:37 10.71.55.20 u91411178 open "/images/linkedin.png" flags READ mode 0666
+May 24 09:28:37 10.71.55.20 u91411178 close "/images/linkedin.png" bytes read 250438 written 0
+May 24 09:28:37 10.71.55.20 u91411178 [10.71.55.20|get|0|250438|0|0|0|2f696d616765732f6c696e6b6564696e2e706e67|]
+May 24 09:28:37 10.71.55.20 u91411178 open "/images/madOption.png" flags READ mode 0666
+May 24 09:28:38 10.71.55.20 u91411178 close "/images/madOption.png" bytes read 7735 written 0
+May 24 09:28:38 10.71.55.20 u91411178 [10.71.55.20|get|1|7735|0|0|0|2f696d616765732f6d61644f7074696f6e2e706e67|]
+May 24 09:28:38 10.71.55.20 u91411178 open "/images/resume.png" flags READ mode 0666
+May 24 09:28:38 10.71.55.20 u91411178 close "/images/resume.png" bytes read 198131 written 0
+May 24 09:28:38 10.71.55.20 u91411178 [10.71.55.20|get|0|198131|0|0|0|2f696d616765732f726573756d652e706e67|]
+May 24 09:28:38 10.71.55.20 u91411178 open "/images/site-normrgb.png" flags READ mode 0666
+May 24 09:28:39 10.71.55.20 u91411178 close "/images/site-normrgb.png" bytes read 523968 written 0
+May 24 09:28:39 10.71.55.20 u91411178 [10.71.55.20|get|1|523968|0|0|0|2f696d616765732f736974652d6e6f726d7267622e706e67|]
+May 24 09:28:39 10.71.55.20 u91411178 open "/images/site.png" flags READ mode 0666
+May 24 09:28:39 10.71.55.20 u91411178 close "/images/site.png" bytes read 523625 written 0
+May 24 09:28:39 10.71.55.20 u91411178 [10.71.55.20|get|0|523625|0|0|0|2f696d616765732f736974652e706e67|]
+May 24 09:28:40 10.71.55.20 u91411178 open "/images/site.svg" flags READ mode 0666
+May 24 09:28:41 10.71.55.20 u91411178 close "/images/site.svg" bytes read 1388878 written 0
+May 24 09:28:41 10.71.55.20 u91411178 [10.71.55.20|get|1|1388878|0|0|0|2f696d616765732f736974652e737667|]
+May 24 09:28:41 10.71.55.20 u91411178 open "/images/smoke.png" flags READ mode 0666
+May 24 09:28:41 10.71.55.20 u91411178 close "/images/smoke.png" bytes read 731851 written 0
+May 24 09:28:41 10.71.55.20 u91411178 [10.71.55.20|get|0|731851|0|0|0|2f696d616765732f736d6f6b652e706e67|]
+May 24 09:28:41 10.71.55.20 u91411178 open "/images/smoke0.png" flags READ mode 0666
+May 24 09:28:42 10.71.55.20 u91411178 close "/images/smoke0.png" bytes read 164971 written 0
+May 24 09:28:42 10.71.55.20 u91411178 [10.71.55.20|get|1|164971|0|0|0|2f696d616765732f736d6f6b65302e706e67|]
+May 24 09:28:42 10.71.55.20 u91411178 open "/images/smoke1.png" flags READ mode 0666
+May 24 09:28:42 10.71.55.20 u91411178 close "/images/smoke1.png" bytes read 271700 written 0
+May 24 09:28:42 10.71.55.20 u91411178 [10.71.55.20|get|0|271700|0|0|0|2f696d616765732f736d6f6b65312e706e67|]
+May 24 09:28:42 10.71.55.20 u91411178 open "/images/backdrop.png" flags READ mode 0666
+May 24 09:28:43 10.71.55.20 u91411178 close "/images/backdrop.png" bytes read 251061 written 0
+May 24 09:28:43 10.71.55.20 u91411178 [10.71.55.20|get|1|251061|0|0|0|2f696d616765732f6261636b64726f702e706e67|]
+May 24 09:28:43 10.71.55.20 u91411178 open "/js/jquery.transit.min.js" flags READ mode 0666
+May 24 09:28:44 10.71.55.20 u91411178 close "/js/jquery.transit.min.js" bytes read 7830 written 0
+May 24 09:28:44 10.71.55.20 u91411178 [10.71.55.20|get|1|7830|0|0|0|2f6a732f6a71756572792e7472616e7369742e6d696e2e6a73|]
+May 24 09:28:44 10.71.55.20 u91411178 open "/js/main.js" flags READ mode 0666
+May 24 09:28:44 10.71.55.20 u91411178 close "/js/main.js" bytes read 4792 written 0
+May 24 09:28:44 10.71.55.20 u91411178 [10.71.55.20|get|0|4792|0|0|0|2f6a732f6d61696e2e6a73|]
+May 24 09:28:45 10.71.55.20 u91411178 open "/logs/traffic.html/.htaccess" flags READ mode 0666
+May 24 09:28:46 10.71.55.20 u91411178 close "/logs/traffic.html/.htaccess" bytes read 23 written 0
+May 24 09:28:46 10.71.55.20 u91411178 [10.71.55.20|get|1|23|0|0|0|2f6c6f67732f747261666669632e68746d6c2f2e6874616363657373|]
+May 24 09:28:46 10.71.55.20 u91411178 open "/logs/traffic.html/index.html" flags READ mode 0666
+May 24 09:28:47 10.71.55.20 u91411178 close "/logs/traffic.html/index.html" bytes read 5513 written 0
+May 24 09:28:47 10.71.55.20 u91411178 [10.71.55.20|get|1|5513|0|0|0|2f6c6f67732f747261666669632e68746d6c2f696e6465782e68746d6c|]
+May 24 09:28:47 10.71.55.20 u91411178 open "/logs/traffic.html/11.html" flags READ mode 0666
+May 24 09:28:47 10.71.55.20 u91411178 close "/logs/traffic.html/11.html" bytes read 2733 written 0
+May 24 09:28:47 10.71.55.20 u91411178 [10.71.55.20|get|0|2733|0|0|0|2f6c6f67732f747261666669632e68746d6c2f31312e68746d6c|]
+May 24 09:28:47 10.71.55.20 u91411178 open "/logs/traffic.html/.md5sums" flags READ mode 0666
+May 24 09:28:47 10.71.55.20 u91411178 sent status Permission denied
+May 24 09:28:59 10.71.55.20 u91411178 open "/logs/traffic.html/.md5sums" flags READ mode 0666
+May 24 09:28:59 10.71.55.20 u91411178 sent status Permission denied
+May 24 09:29:01 10.71.55.20 u91411178 open "/logs/traffic.html/12.html" flags READ mode 0666
+May 24 09:29:01 10.71.55.20 u91411178 close "/logs/traffic.html/12.html" bytes read 11643 written 0
+May 24 09:29:01 10.71.55.20 u91411178 [10.71.55.20|get|0|11643|0|0|0|2f6c6f67732f747261666669632e68746d6c2f31322e68746d6c|]
+May 24 09:29:01 10.71.55.20 u91411178 open "/logs/traffic.html/01.html" flags READ mode 0666
+May 24 09:29:02 10.71.55.20 u91411178 close "/logs/traffic.html/01.html" bytes read 11663 written 0
+May 24 09:29:02 10.71.55.20 u91411178 [10.71.55.20|get|1|11663|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30312e68746d6c|]
+May 24 09:29:02 10.71.55.20 u91411178 open "/logs/traffic.html/02.html" flags READ mode 0666
+May 24 09:29:02 10.71.55.20 u91411178 close "/logs/traffic.html/02.html" bytes read 10638 written 0
+May 24 09:29:02 10.71.55.20 u91411178 [10.71.55.20|get|0|10638|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30322e68746d6c|]
+May 24 09:29:02 10.71.55.20 u91411178 open "/logs/traffic.html/03.html" flags READ mode 0666
+May 24 09:29:03 10.71.55.20 u91411178 close "/logs/traffic.html/03.html" bytes read 11635 written 0
+May 24 09:29:03 10.71.55.20 u91411178 [10.71.55.20|get|1|11635|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30332e68746d6c|]
+May 24 09:29:03 10.71.55.20 u91411178 open "/logs/traffic.html/04.html" flags READ mode 0666
+May 24 09:29:03 10.71.55.20 u91411178 close "/logs/traffic.html/04.html" bytes read 11276 written 0
+May 24 09:29:03 10.71.55.20 u91411178 [10.71.55.20|get|0|11276|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30342e68746d6c|]
+May 24 09:29:03 10.71.55.20 u91411178 open "/logs/traffic.html/05.html" flags READ mode 0666
+May 24 09:29:04 10.71.55.20 u91411178 close "/logs/traffic.html/05.html" bytes read 8921 written 0
+May 24 09:29:04 10.71.55.20 u91411178 [10.71.55.20|get|1|8921|0|0|0|2f6c6f67732f747261666669632e68746d6c2f30352e68746d6c|]
+May 24 09:29:04 10.71.55.20 u91411178 open "/logs/.htaccess" flags READ mode 0666
+May 24 09:29:04 10.71.55.20 u91411178 close "/logs/.htaccess" bytes read 266 written 0
+May 24 09:29:04 10.71.55.20 u91411178 [10.71.55.20|get|0|266|0|0|0|2f6c6f67732f2e6874616363657373|]
+May 24 09:29:04 10.71.55.20 u91411178 open "/logs/info.pl" flags READ mode 0666
+May 24 09:29:05 10.71.55.20 u91411178 close "/logs/info.pl" bytes read 4176 written 0
+May 24 09:29:05 10.71.55.20 u91411178 [10.71.55.20|get|1|4176|0|0|0|2f6c6f67732f696e666f2e706c|]
+May 24 09:29:05 10.71.55.20 u91411178 open "/logs/info.php5" flags READ mode 0666
+May 24 09:29:05 10.71.55.20 u91411178 close "/logs/info.php5" bytes read 21 written 0
+May 24 09:29:05 10.71.55.20 u91411178 [10.71.55.20|get|0|21|0|0|0|2f6c6f67732f696e666f2e70687035|]
+May 24 09:29:05 10.71.55.20 u91411178 open "/logs/info.py" flags READ mode 0666
+May 24 09:29:06 10.71.55.20 u91411178 close "/logs/info.py" bytes read 6384 written 0
+May 24 09:29:06 10.71.55.20 u91411178 [10.71.55.20|get|1|6384|0|0|0|2f6c6f67732f696e666f2e7079|]
+May 24 09:29:06 10.71.55.20 u91411178 open "/logs/traffic.db" flags READ mode 0666
+May 24 09:29:06 10.71.55.20 u91411178 close "/logs/traffic.db" bytes read 24576 written 0
+May 24 09:29:06 10.71.55.20 u91411178 [10.71.55.20|get|0|24576|0|0|0|2f6c6f67732f747261666669632e6462|]
+May 24 09:29:06 10.71.55.20 u91411178 open "/logs/last_traffic" flags READ mode 0666
+May 24 09:29:07 10.71.55.20 u91411178 close "/logs/last_traffic" bytes read 0 written 0
+May 24 09:29:07 10.71.55.20 u91411178 [10.71.55.20|get|1|0|0|0|0|2f6c6f67732f6c6173745f74726166666963|]
+May 24 09:29:07 10.71.55.20 u91411178 open "/logs/sftp.log.18.gz" flags READ mode 0666
+May 24 09:29:07 10.71.55.20 u91411178 close "/logs/sftp.log.18.gz" bytes read 1066 written 0
+May 24 09:29:07 10.71.55.20 u91411178 [10.71.55.20|get|0|1066|0|0|0|2f6c6f67732f736674702e6c6f672e31382e677a|]
+May 24 09:29:07 10.71.55.20 u91411178 open "/logs/access.log.20.6.gz" flags READ mode 0666
+May 24 09:29:08 10.71.55.20 u91411178 close "/logs/access.log.20.6.gz" bytes read 784 written 0
+May 24 09:29:08 10.71.55.20 u91411178 [10.71.55.20|get|1|784|0|0|0|2f6c6f67732f6163636573732e6c6f672e32302e362e677a|]
+May 24 09:29:08 10.71.55.20 u91411178 open "/logs/access.log.21.3.gz" flags READ mode 0666
+May 24 09:29:09 10.71.55.20 u91411178 close "/logs/access.log.21.3.gz" bytes read 1858 written 0
+May 24 09:29:09 10.71.55.20 u91411178 [10.71.55.20|get|1|1858|0|0|0|2f6c6f67732f6163636573732e6c6f672e32312e332e677a|]
+May 24 09:29:09 10.71.55.20 u91411178 open "/logs/access.log.15.gz" flags READ mode 0666
+May 24 09:29:09 10.71.55.20 u91411178 close "/logs/access.log.15.gz" bytes read 4507 written 0
+May 24 09:29:09 10.71.55.20 u91411178 [10.71.55.20|get|0|4507|0|0|0|2f6c6f67732f6163636573732e6c6f672e31352e677a|]
+May 24 09:29:09 10.71.55.20 u91411178 open "/logs/access.log.17.gz" flags READ mode 0666
+May 24 09:29:09 10.71.55.20 u91411178 close "/logs/access.log.17.gz" bytes read 4600 written 0
+May 24 09:29:09 10.71.55.20 u91411178 [10.71.55.20|get|0|4600|0|0|0|2f6c6f67732f6163636573732e6c6f672e31372e677a|]
+May 24 09:29:09 10.71.55.20 u91411178 open "/logs/sftp.log.19.gz" flags READ mode 0666
+May 24 09:29:10 10.71.55.20 u91411178 close "/logs/sftp.log.19.gz" bytes read 13159 written 0
+May 24 09:29:10 10.71.55.20 u91411178 [10.71.55.20|get|1|13159|0|0|0|2f6c6f67732f736674702e6c6f672e31392e677a|]
+May 24 09:29:10 10.71.55.20 u91411178 open "/logs/access.log.18.gz" flags READ mode 0666
+May 24 09:29:10 10.71.55.20 u91411178 close "/logs/access.log.18.gz" bytes read 5023 written 0
+May 24 09:29:10 10.71.55.20 u91411178 [10.71.55.20|get|0|5023|0|0|0|2f6c6f67732f6163636573732e6c6f672e31382e677a|]
+May 24 09:29:10 10.71.55.20 u91411178 open "/logs/access.log.20.1.gz" flags READ mode 0666
+May 24 09:29:11 10.71.55.20 u91411178 close "/logs/access.log.20.1.gz" bytes read 2749 written 0
+May 24 09:29:11 10.71.55.20 u91411178 [10.71.55.20|get|1|2749|0|0|0|2f6c6f67732f6163636573732e6c6f672e32302e312e677a|]
+May 24 09:29:11 10.71.55.20 u91411178 open "/logs/access.log.20.2.gz" flags READ mode 0666
+May 24 09:29:11 10.71.55.20 u91411178 close "/logs/access.log.20.2.gz" bytes read 908 written 0
+May 24 09:29:11 10.71.55.20 u91411178 [10.71.55.20|get|0|908|0|0|0|2f6c6f67732f6163636573732e6c6f672e32302e322e677a|]
+May 24 09:29:12 10.71.55.20 u91411178 open "/logs/access.log.20.3.gz" flags READ mode 0666
+May 24 09:29:12 10.71.55.20 u91411178 close "/logs/access.log.20.3.gz" bytes read 1265 written 0
+May 24 09:29:12 10.71.55.20 u91411178 [10.71.55.20|get|0|1265|0|0|0|2f6c6f67732f6163636573732e6c6f672e32302e332e677a|]
+May 24 09:29:12 10.71.55.20 u91411178 open "/logs/access.log.current" flags READ mode 0666
+May 24 09:29:14 10.71.55.20 u91411178 close "/logs/access.log.current" bytes read 2878 written 0
+May 24 09:29:14 10.71.55.20 u91411178 [10.71.55.20|get|2|2878|0|0|0|2f6c6f67732f6163636573732e6c6f672e63757272656e74|]
+May 24 09:29:14 10.71.55.20 u91411178 open "/logs/sftp.log" flags READ mode 0666

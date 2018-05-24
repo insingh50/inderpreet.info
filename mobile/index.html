@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inder | Mobile</title>
+    <link rel="stylesheet" href="css/mobile.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container" style="margin: 40vh 0 0 0;">
+        <h3>The mobile site is arriving<span class="comma">,</span> <span class="fadein-delay">be prepared.</span></h3>
+        <div>
+            <span class="sexy_line"></span>
+        </div>
+        <h2 class="text-muted">inderpreet.info</h2>
+    </div>
+
+    <script>
+        $('span').css('opacity', 0);
+        $('h3').fadeIn(1000).delay(100).animate({margin: 0}, {duration: 1000, queue:true});
+        $('.comma').delay(1200).animate({opacity: 1}, {duration: 1000, queue:true});
+        $('.fadein-delay').delay(1800).animate({opacity: 1}, {duration: 1000, queue:true});
+        $('.sexy_line').delay(3300).animate({opacity: 1}, {duration: 1000, queue:true});
+        $('h2').delay(3600).fadeIn(2500);
+        
+    </script>
+</body>
+</html>

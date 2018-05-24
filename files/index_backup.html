@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html class="no-js" style="color:black">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>INDER|LUX</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0-beta.2/lux/bootstrap.min.css">
+		<link rel="stylesheet" href="css/main_backup.css">
+
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>	
+		<!-- <script>document.documentElement.className = document.documentElement.className.replace('no-js','js');</script>		 -->
+	</head>
+	<body class="border-gradient">
+		<img id="smoke0" class="fadein-delay" src="images/smoke0.png" border="0">
+		<img id="smoke1" class="fadein-delay" src="images/smoke1.png" border="0">
+		<img id="background" class="fadein-delay" src="images/smoke-backdrop.png" border="0">
+
+		
+		<div class="container-fluid">
+			<div>
+				<nav class="fadein">
+					<a class="pr-4 active" href="#">Home</a>
+					<a class="pr-4" href="#">Media</a>
+					<a class="pr-4" href="#">Links</a>
+					<a class="pr-4" href="#">Work</a>
+				</nav>
+				<p class="site-name">inderpreet.info</p>
+			</div>
+			<div class="jumbotron fadein-delay">
+				<div id="who" class="container" style="margin-left: 30%">
+					<h1 style="color: white; text-transform:capitalize; font-size:4.2vw /* originally 55px">Inderpreet Singh</h1>
+					<h5 class="text-muted" style="font-size: 1.5vw; text-transform: capitalize">Software Developer</h5>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<script type="text/javascript">
+				$('.fadein-delay').hide();
+				$('.fadein').hide().fadeIn(2000)
+				$('#background').fadeIn(1000);
+				setTimeout(function(){
+					$('.jumbotron').fadeIn(1300).animate({left: "0px"}, {duration:1200, queue:false});
+					$('#smoke0').fadeIn(1300).animate({left: "0px"}, {duration:1200, queue:false});
+					$('#smoke1').fadeIn(2700).animate({left: "0px"}, {duration:3600, queue:false});
+				}, 700);
+			</script>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,93 @@
+@font-face { font-family: Futura; src: url('../fonts/FuturaLT.ttf'); }
+@font-face { font-family: Futura-Light; src: url('../fonts/FuturaLT-Light.otf'); }
+html *
+{
+  height: 100%;
+  color: rgb(255, 255, 255); 
+  font-family: Futura-Light !important; 
+}
+.js body { display: none;}
+.border-gradient {
+	/* border: 15px solid rgba(255, 255, 255, 0.1); */
+	height: 100%;
+  width: 100%;
+  background: black;
+}
+nav{
+  z-index: 1;
+  margin-top: 40px;
+  margin-left: 20px;
+  float: left;
+}
+nav > a{
+	font-family: FuturaLT;
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 24px;
+}
+a:hover{
+	color: grey;
+	text-decoration: none;
+}
+.jumbotron{
+	margin-bottom: 0px;
+	background: transparent;
+	color: white;
+	width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  top:200px;
+  z-index:1;
+}
+.jumbotron h2 {margin-top:0;}
+.jumbotron {
+  margin:auto auto;
+  background:transparent;
+  left: -20px;
+  float: left;
+}
+.jumbotron .container {
+  z-index:1;
+}
+#smoke0{
+  height: auto;
+  left: -17px;
+  margin: 0;
+  min-height: 100%;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  z-index: -2;
+}
+#smoke1{
+  height: auto;
+  left: -17px;
+  margin: 0;
+  min-height: 100%;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+#background{
+  height: auto;
+  left: 0;
+  margin: 0;
+  min-height: 100%;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  z-index: -3;
+}
+.site-name{
+  align-content: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.btn-outline-primary{
+  color: white;
+  background: rgba(0, 0, 0, .05);
+}
