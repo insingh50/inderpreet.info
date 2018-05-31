@@ -45,6 +45,9 @@ $(function() {
             $('#smokeImg1').fadeIn(2000).animate({left: "0px"}, {duration:1500, queue:false});
             //$('[href="javascript:homeClicked()"]').transition({scale:1.2, delay:850, easing:'easeInOutBack' /*, 'font-weight': 400*/}, 2500);
         }, 2100);
+        setTimeout(() => {
+            $('[href="javascript:homeClicked()"]').addClass("current-nav", 200);
+        }, 3750)
     } 
     else{
         $('.who').show();
