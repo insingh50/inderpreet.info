@@ -53,7 +53,9 @@ $(function() {
         $('.who').show();
         $('#smokeImg0, #smokeImg1').css("left", '0px');
         $('.fadein-delay').css("opacity", 1);
+        $('[href="javascript:homeClicked()"]').addClass("current-nav", 200);
     }
+
     $('.linkimg').each(function(index) {
             $(this).delay(300*(index)).animate({bottom: '0px'}, {duration: 2000,queue:false}).fadeIn(2500);
     });
