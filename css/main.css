@@ -197,8 +197,12 @@ img.blacknwhite:hover{
   position: relative;
   top: 13%;
   font-family: Futura;
+  font-size: 2vw;
   background: transparent;
   text-align: start;
+}
+.descrip > h2{
+  font-size: 2vw;
 }
 
 /* MEDIA STYLING */
