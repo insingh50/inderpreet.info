@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mad Option LLC</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <script src="https://cdn.syncfusion.com/ej2/ej2-base/dist/ej2-base.umd.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/ej2-data/dist/ej2-data.umd.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/ej2-pdf-export/dist/ej2-pdf-export.umd.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/ej2-file-utils/dist/ej2-file-utils.umd.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/ej2-compression/dist/ej2-compression.umd.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/ej2-svg-base/dist/ej2-svg-base.umd.min.js"></script>
+    <script src="js/syncfusion/ej2-charts.min.js"></script>
+    <script src="js/syncfusion/ej2-charts.umd.min.js"></script> -->
+    <script type="text/javascript" src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="js/syncfusion/ej2.min.js"></script>
+
+</head>
+<body>
+    <div id="body" class="container-fluid">
+        <!-- HEADER -->
+        <div id="header" class="row align-items-start">
+            <h3 id="company" class="col-9">Mad Option LLC</h1>
+            <h6 class="col-lg-2 col-sm-4">US Markets <strong id="market-status">OPEN</strong></h6>
+            <h6 class="col-lg-1 col-sm-4">New York, NY</h6>
+        </div>
+
+        <!-- FUND SPECIFICS -->
+        <div style="float: right;">FUND SPECIFICS HERE</div>
+
+        <!-- BIG THREE -->
+        <div id="big3" class="container-fluid">
+            <div id="big3-headers" class="row">
+                <h4 class="col-4">DOW 24895.65 152.56</h4>
+                <h4 class="col-4">NASDAQ 7981.65 57.25</h4>
+                <h4 class="col-4">S&amp;P 2915.65 12.41</h4>
+            </div>
+            <div id="big3-charts" class="row align-items-center">
+                <div id="dow-chart" class="col-4"></div>
+                <div id="nasdaq-chart" class="col-4"></div>
+                <div id="sp-chart" class="col-4"></div>
+            </div>
+            <!-- QUOTE TICKERS -->
+            <div id="quotes" class="row">
+                <div class="col-4">
+                    <table class="table table-sm table-borderless">
+                        <tbody>
+                            <tr scope="row">
+                                <td scope="col">SPY</td>
+                                <td scope="col">292.645</td>
+                                <td scope="col">1.21</td>
+                            </tr>
+                            <tr scope="row">
+                                <td scope="col">VIX</td>
+                                <td scope="col">292.645</td>
+                                <td scope="col">1.21</td>
+                            </tr>
+                            <tr scope="row">
+                                <td scope="col">RUT</td>
+                                <td scope="col">292.645</td>
+                                <td scope="col">1.21</td>
+                            </tr>
+                            <tr scope="row">
+                                <td scope="col">QQQ</td>
+                                <td scope="col">292.645</td>
+                                <td scope="col">1.21</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-4">
+                    <table class="table table-sm table-borderless">
+                        <tbody>
+                            <tr scope="row">
+                                <td scope="col">SPY</td>
+                                <td scope="col">292.645</td>
+                                <td scope="col">1.21</td>
+                            </tr>
+                            <tr scope="row">
+                                <td scope="col">VIX</td>
+                                <td scope="col">292.645</td>
+                                <td scope="col">1.21</td>
+                            </tr>
+                            <tr scope="row">
+                                <td scope="col">RUT</td>
+                                <td scope="col">292.645</td>
+                                <td scope="col">1.21</td>
+                            </tr>
+                            <tr scope="row">
+                                <td scope="col">QQQ</td>
+                                <td scope="col">292.645</td>
+                                <td scope="col">1.21</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-4">
+                    <table class="table table-sm table-borderless">
+                        <tbody>
+                            <tr scope="row">
+                                <td scope="col">SPY</td>
+                                <td scope="col">292.645</td>
+                                <td scope="col">1.21</td>
+                            </tr>
+                            <tr scope="row">
+                                <td scope="col">VIX</td>
+                                <td scope="col">292.645</td>
+                                <td scope="col">1.21</td>
+                            </tr>
+                            <tr scope="row">
+                                <td scope="col">RUT</td>
+                                <td scope="col">292.645</td>
+                                <td scope="col">1.21</td>
+                            </tr>
+                            <tr scope="row">
+                                <td scope="col">QQQ</td>
+                                <td scope="col">292.645</td>
+                                <td scope="col">1.21</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- NEWS -->
+        <div id="news" class="container-fluid">
+            <div id="cnbc" class="row align-items-center">
+                <div id="cnbc-logo" class="col-3"><img src="images/CNBC_logo.png" alt="" srcset=""></div>
+                <ol id="cnbc-headlines" class="col-9"></ol>
+            </div>
+            <div id="bloomberg" class="row align-items-center">
+                <div id="bloomberg-logo" class="col-3"><img src="images/bloomberg.jpg" alt=""></div>
+                <ol id="bloomberg-headlines" class="col-9"></ol>
+            </div>
+            <div id="fox-news" class="row align-items-center">
+                <div id="fox-logo" class="col-3"><img src="images/Fox_Business_logo.svg" alt="" srcset=""></div>
+                <ol id="fox-news-headlines" class="col-9"></ol>
+            </div>
+            <div id="reuters" class="row align-items-center">
+                <div id="reuters-logo" class="col-3"><img src="images/Reuters-Logo.png" alt="" srcset=""></div>
+                <ol id="reuters-headlines" class="col-9"></ol>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div id="footer" class="container-fluid">
+            <div class="row justify-content-around">
+                <div class="col-2">
+                    <strong>Chicago</strong>
+                    <span id="Chicago"></span>
+                    <span>CST</span>
+                </div>
+                <div class="col-2">
+                    <strong>Frankfurt</strong>
+                    <span id="Frankfurt"></span>
+                    <span>CET</span>
+                </div>
+                <div class="col-2">
+                    <strong>London</strong>
+                    <span id="London"></span>
+                    <span>GMT</span>
+                </div>
+                <div class="col-2">
+                    <strong>New York</strong>
+                    <span id="NewYork"></span>
+                    <span>EST</span>
+                </div>
+                <div class="col-2">
+                    <strong>Shanghai</strong>
+                    <span id="Shanghai"></span>
+                    <span>CST</span>
+                </div>
+                <div class="col-2">
+                    <strong>Tokyo</strong>
+                    <span id="Tokyo"></span>
+                    <span>JST</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/news.js"></script>
+    <script src="js/charting.js"></script>
+    <!-- TODO: FIX THIS SCRIPT -->
+    <script src="js/time.js"></script>
+</body>
+</html>
